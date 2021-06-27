@@ -43,7 +43,7 @@ public class PremierLeagueDAO {
 	
 	public void listAllActions(Map<Integer, Action> idMapAzioni){
 		String sql = "SELECT * FROM Actions";
-		//List<Action> result = new ArrayList<Action>();
+		List<Action> result = new ArrayList<Action>();
 		Connection conn = DBConnect.getConnection();
 
 		try {
